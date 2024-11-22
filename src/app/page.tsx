@@ -21,7 +21,7 @@ export default function Home() {
 			href: "https://instagram.com/hsries_",
 			title: "Instagram",
 			description: "My instagram",
-		},
+		}
 	];
 
 	return (
