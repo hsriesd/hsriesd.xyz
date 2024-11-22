@@ -8,19 +8,19 @@ import Link from 'next/link';
 export default function Home() {
 	const links = [
 		{
-			href: "https://once-ui.com/docs/theming",
-			title: "Themes",
-			description: "Style your app in minutes.",
+			href: "https://github.com/hsriesd",
+			title: "Github",
+			description: "This is my github",
 		},
 		{
-			href: "https://once-ui.com/docs/flexComponent",
-			title: "Layout",
-			description: "Build responsive layouts.",
+			href: "https://youtube.com/playlist?list=PL8XKmp_L-8UYKVGIBN7MxqPAK_u9TkOv7&si=Hhsb8qt77eqn67DF",
+			title: "Playlist",
+			description: "My love songs list",
 		},
 		{
-			href: "https://once-ui.com/docs/typography",
-			title: "Typography",
-			description: "Scale text automatically.",
+			href: "https://instagram.com/hsries_",
+			title: "Instagram",
+			description: "My instagram",
 		},
 	];
 
@@ -55,7 +55,7 @@ export default function Home() {
 									width: 'fit-content',
 									padding: 'var(--static-space-8) var(--static-space-16)',
 									backdropFilter: 'blur(var(--static-space-1))'}}>
-								Start by editing <span className="brand-on-background-medium">app/page.tsx</span>
+								Language <span className="brand-on-background-medium">.py .java .cs .html .css .js .php .ts and more..</span>
 							</InlineCode>
 							<Heading
 								wrap="balance"
@@ -63,19 +63,20 @@ export default function Home() {
 								<span className="font-code">
 									<LetterFx
 										trigger="instant">
-										Helping designers code and developers design
+										I will go to KAIST OR SEOUL UNIVERSITY
+										Coding is so excting..!
 									</LetterFx>
 								</span>
 							</Heading>
-							<Button
-								id="readDocs"
-								href="https://once-ui.com/docs"
-								variant="secondary">
-								<Flex alignItems="center">
-									Read docs
-									<Arrow trigger="#readDocs"/>
-								</Flex>
-							</Button>
+							//<Button
+							//	id="readDocs"
+							//	href="https://once-ui.com/docs"
+							//	variant="secondary">
+							//	<Flex alignItems="center">
+							//		Read docs
+							//		<Arrow trigger="#readDocs"/>
+							//	</Flex>
+							//</Button>
 						</Flex>
 					</Flex>
 					<Grid
@@ -121,19 +122,19 @@ export default function Home() {
 				justifyContent="space-between">
 				<Text
 					variant="body-default-s" onBackground="neutral-weak">
-					© 2024 Once UI, <Link href="https://github.com/once-ui-system/nextjs-starter?tab=MIT-1-ov-file">MIT License</Link>
+					© 2024 Hsries, <Link href="https://github.com/hsriesd/hsriesd.xyz/blob/main/LICENSE">MIT License</Link>
 				</Text>
 				<Flex
 					gap="12">
 					<Button
-						href="https://github.com/once-ui-system/nextjs-starter"
+						href="https://github.com/hsriesd/hsriesd.xyz/"
 						prefixIcon="github" size="s" variant="tertiary">
 						GitHub
 					</Button>
 					<Button
-						href="https://discord.com/invite/5EyAQ4eNdS"
+						href="#hsries_"
 						prefixIcon="discord" size="s" variant="tertiary">
-						Discord
+						Discord | ID : hsries_
 					</Button>
 				</Flex>
 			</Flex>
