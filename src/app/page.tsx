@@ -21,7 +21,7 @@ export default function Home() {
 			href: "https://instagram.com/hsries_",
 			title: "Instagram",
 			description: "My instagram",
-		}
+		},
 	];
 
 	return (
@@ -68,15 +68,15 @@ export default function Home() {
 									</LetterFx>
 								</span>
 							</Heading>
-							//<Button
-							//	id="readDocs"
-							//	href="https://once-ui.com/docs"
-							//	variant="secondary">
-							//	<Flex alignItems="center">
-							//		Read docs
-							//		<Arrow trigger="#readDocs"/>
-							//	</Flex>
-							//</Button>
+							{/* <Button
+								id="readDocs"
+								href="https://once-ui.com/docs"
+								variant="secondary">
+								<Flex alignItems="center">
+									Read docs
+									<Arrow trigger="#readDocs"/>
+								</Flex>
+							</Button> */}
 						</Flex>
 					</Flex>
 					<Grid
