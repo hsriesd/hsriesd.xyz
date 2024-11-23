@@ -64,7 +64,12 @@ export default function Home() {
 									<LetterFx
 										trigger="instant">
 										I will go to KAIST OR SEOUL UNIVERSITY
+										
+									</LetterFx>
+									<LetterFx
+										trigger="instant">
 										Coding is so excting..!
+										
 									</LetterFx>
 								</span>
 							</Heading>

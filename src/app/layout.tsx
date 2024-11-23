@@ -42,10 +42,10 @@ export async function generateMetadata(): Promise<Metadata> {
 	const metadataBase = host ? new URL(`https://${host}`) : undefined;
 
 	return {
-		title: meta.title,
+		title: "hsriesd",
 		description: meta.description,
 		openGraph: {
-			title: og.title,
+			title: "hsriesd",
 			description: og.description,
 			url: 'https://' + baseURL,
 			type: og.type as
@@ -84,7 +84,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<Flex
-			as="html" lang="en"
+			as="html" lang="ko"
 			fillHeight background="page"
 			data-neutral={style.neutral} data-brand={style.brand} data-accent={style.accent}
 			data-border={style.border} data-theme={style.theme}
