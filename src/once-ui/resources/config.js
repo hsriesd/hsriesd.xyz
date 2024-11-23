@@ -17,14 +17,14 @@ const style = {
 // default metadata
 const meta = {
     title: 'hsriesd',
-    description: 'THis page is hsried's portfolio'
+    description: "THis page is hsried's portfolio"
 }
 
 
 // default open graph data
 const og = {
     title: 'hsriesd',
-    description: 'THis page is hsried's portfolio',
+    description: 'We let designers code and developers design.',
     type: 'website'
 }
 
@@ -35,6 +35,13 @@ const schema = {
     name: 'One UI',
     description: 'Once UI is an open-source design system and component library for Next.js.',
     email: 'lorant@once-ui.com'
+}
+
+// social links
+const social = {
+    twitter: 'https://www.twitter.com/_onceui',
+    linkedin: 'https://www.linkedin.com/company/once-ui/',
+    discord: 'https://discord.com/invite/5EyAQ4eNdS'
 }
 
 export { baseURL, style, meta, og, schema, social };
