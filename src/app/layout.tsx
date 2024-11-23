@@ -42,7 +42,7 @@ export async function generateMetadata(): Promise<Metadata> {
 	const metadataBase = host ? new URL(`https://${host}`) : undefined;
 
 	return {
-		title: meta.title,
+		title: "hsriesd",
 		description: meta.description,
 		openGraph: {
 			title: "hsriesd",
